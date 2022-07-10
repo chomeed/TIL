@@ -1,0 +1,18 @@
+How to connect to my PostgreSQL database: 
+
+Firstly, open up psql shell or pgAdmin interface, whichever way you prefer. 
+Then enter the appropriate information as shown below. 
+- server
+- database
+- port 
+- username 
+- password 
+
+For the most of the time, PostgreSQL utilizes 5432 as its port number but I noticed that my docker container is using port number 7000. 
+So for my case, I would type in 7000 for the port number. 
+
+SELECT * FROM [TABLE NAME] 
+
+The above statement will extract all the rows - in this case, each represents a piece of data - from the specific table you queried to. 
+
+
